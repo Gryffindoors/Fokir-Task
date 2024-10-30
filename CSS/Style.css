@@ -294,6 +294,11 @@ button:hover{
 }
 .detail img{
     width: 100%;
+    transition: 2s all ease-in-out;
+}
+.detail:hover img{
+    transform: scale(.8);
+    transition: 2s all ease-in-out;
 }
 /*---------------*/
 .blog{
